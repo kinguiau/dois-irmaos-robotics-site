@@ -23,7 +23,7 @@ export const empresa = {
   publicoAlvo:
     "Crianças e jovens de 8 a 14 anos, que estão descobrindo a tecnologia, gostam de brincar e interagir e buscam experiências divertidas e marcantes.",
   contato: {
-    email: "DoisIrmãosCorp@gmail.com",
+    email: "doisirmaoscorp@gmail.com",
     telefone: "(86) 90413-2136",
     endereco: {
       logradouro: "Rua Cigarrão do meio dia, 999",
@@ -35,21 +35,21 @@ export const empresa = {
   },
   equipe: [
     {
-      nome: "Guilherme Victor Chaves Silva",
-      cargo: "Desenvolvimento software, sistemas. análise de sistemas.",
+      nome: "Guilherme Victor",
+      cargo: "Desenvolvimento de software, sistemas. análise de sistemas.",
       foto: "/images/guilherme.png",
       alt: "Foto de Guilherme Victor Chaves Silva",
       descricao: "Fundador da Dois Irmãos Robotics, começou criando um animatrônico para tentar alegrar seu irmão Thiago."
     },
     {
-      nome: "Thiago Emanuel Cardozo Rodriques",
-      cargo: "Gestão de produtos,UX/UI e Design.",
+      nome: "Thiago Emanuel",
+      cargo: "Gestão de produtos,  engenheiro de robótica, UX/UI e Design.",
       foto: "/images/thiago.png",
       alt: "Foto de Thiago Emanuel Cardozo Rodriques",
-      descricao: "Fundador da Dois Irmãos Robotics, se juntou ao irmão para fundar a Dois Irmãos Robotics, com o proposito de espalhar a mesma alegria que um dia os animatrônicos lhe trouxeram."
+      descricao: "Fundou a Dois Irmãos Robotics com seu irmão, buscando espalhar a alegria que os animatrônicos lhes proporcionaram."
     },
     {
-      nome: "Pedro de Alcântaro Jão Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga",
+      nome: "Pedro de Alcântaro",
       cargo: "CEO, Marketing, Financeiro, Recursos Humanos, Jurídico, Administração.",
       foto: "/images/pedro.png",
       alt: "Foto de Pedro de Alcântaro Jão Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga",
