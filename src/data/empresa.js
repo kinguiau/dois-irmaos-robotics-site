@@ -1,7 +1,7 @@
 export const empresa = {
   nome: "Dois Irmãos Robotics",
   slogan: "Animatrônicos por amor.",
-  historia:"A Dois Irmãos Robotics nasceu de uma promessa entre dois irmãos. Quando a família se mudou de cidade, Thiago Emanuel Cardozo Rodrigues, o caçula, se sentiu sozinho, e Guilherme Victor Chaves Silva, o mais velho, montou na mesa da cozinha um pequeno urso mecânico, que Thiago batizou de Lupe. Com um programa simples, o urso passou a reagir ao toque e à voz, e Thiago ganhou coragem para fazer os primeiros amigos. Os irmãos entenderam que o hardware dava vida ao urso, mas era o software que o tornava um amigo. Anos depois, fundaram a empresa para espalhar alegria e felicidade ao público infantojuvenil por meio do desenvolvimento de hardware e software para animatrônicos interativos. Porque aqui, os animatrônicos são feitos por amor.</p>",
+  historia:"A Dois Irmãos Robotics nasceu de uma promessa entre dois irmãos. Quando a família se mudou de cidade, Thiago Emanuel Cardozo Rodrigues, o caçula, se sentiu sozinho, e Guilherme Victor Chaves Silva, o mais velho, montou na mesa da cozinha um pequeno urso mecânico, que Thiago batizou de Lupe. Com um programa simples, o urso passou a reagir ao toque e à voz, e Thiago ganhou coragem para fazer os primeiros amigos. Os irmãos entenderam que o hardware dava vida ao urso, mas era o software que o tornava um amigo. Anos depois, fundaram a empresa para espalhar alegria e felicidade ao público infantojuvenil por meio do desenvolvimento de hardware e software para animatrônicos interativos. Porque aqui, os animatrônicos são feitos por amor.",
   missao:
     "Levar alegria e felicidade a crianças e jovens por meio de animatrônicos interativos, com hardware e software desenvolvidos com criatividade, tecnologia e amor.",
   visao:
@@ -44,7 +44,7 @@ export const empresa = {
     {
       nome: "Thiago Emanuel Cardozo Rodriques",
       cargo: "Gestão de produtos,UX/UI e Design.",
-      foto: "/images/sheldon.png",
+      foto: "/images/thiago.png",
       alt: "Foto de Thiago Emanuel Cardozo Rodriques",
       descricao: "Fundador da Dois Irmãos Robotics, se juntou ao irmão para fundar a Dois Irmãos Robotics, com o proposito de espalhar a mesma alegria que um dia os animatrônicos lhe trouxeram."
     },
