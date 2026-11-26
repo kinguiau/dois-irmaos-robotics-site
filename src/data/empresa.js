@@ -50,10 +50,17 @@ export const empresa = {
     },
     {
       nome: "Pedro de Alcântaro",
-      cargo: "CEO, Marketing, Financeiro, Recursos Humanos, Jurídico, Administração.",
+      cargo: "CEO, Financeiro, Recursos Humanos, Jurídico, Administração.",
       foto: "/images/pedro.png",
       alt: "Foto de Pedro de Alcântaro Jão Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga",
       descricao: "Primeiro investidor da Empresa, possui uma grande eloquência e têm uma grande rede de contatos."
+    },
+    {
+      nome:"Van Gogh",
+      cargo:"Diretor de design, Marketing.",
+      foto: "/images/van.png",
+      alt: "Foto de Van Gogh",
+      descricao:"Contratado por Pedro de Alcântaro como membro para desenvolver a identidade visual da empresa Dois Irmãos Robotics."
     }
   ]
 };
