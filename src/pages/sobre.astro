@@ -11,7 +11,7 @@ import { empresa } from '../data/empresa.js';
 	<section class="secao">
 		<div class="container">
 			<div class="bloco-texto">
-				<h1>Sobre a {empresa.nome}</h1>
+				<h1 class="historia-titulo">Sobre a {empresa.nome}</h1>
 				<p class="historia">{empresa.historia}</p>
 			</div>
 
@@ -44,41 +44,3 @@ import { empresa } from '../data/empresa.js';
 	</section>
 </LayoutBase>
 
-<style>
-	.bloco-texto {
-		margin-bottom: 3rem;
-		max-width: 800px;
-	}
-
-	.historia {
-		font-size: 1.125rem;
-		color: var(--cor-texto-secundario);
-	}
-
-	.grid-missao-visao {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 2rem;
-	}
-
-	.grid-missao-visao h2 {
-		font-size: 1.5rem;
-		color: var(--cor-secundaria);
-	}
-
-	.titulo-valores {
-		margin-bottom: 2rem;
-	}
-
-	.grid-valores {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 2rem;
-	}
-
-	.grid-valores h3 {
-		font-size: 1.25rem;
-		color: var(--cor-secundaria);
-		margin-bottom: 0.5rem;
-	}
-</style>

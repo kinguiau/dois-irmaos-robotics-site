@@ -1,0 +1,183 @@
+
+/* =========================================
+   PÁGINA INDEX
+========================================= */
+
+.hero {
+    background: var(--degrade-hero);
+    color: var(--cor-texto-invertido);
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    color: var(--cor-texto-invertido);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    max-width: 800px;
+}
+
+.hero-descricao {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin-bottom: 2rem;
+    color: var(--cor-fundo);
+}
+
+.publico h2 {
+    margin-bottom: 2rem;
+}
+
+.texto-publico {
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    color: var(--cor-texto-secundario);
+}
+
+
+/* =========================================
+   PÁGINA SOBRE
+========================================= */
+
+.bloco-texto {
+    margin-bottom: 3rem;
+    max-width: 800px;
+}
+
+.historia {
+    font-size: 1.125rem;
+    color: var(--cor-fundo-alt);
+}
+
+.historia-titulo {
+    color: var(--cor-fundo-alt);
+}
+
+.grid-missao-visao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.grid-missao-visao h2 {
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+}
+
+.titulo-valores {
+    margin-bottom: 2rem;
+    color: var(--cor-fundo-alt);
+}
+
+.grid-valores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.grid-valores h3 {
+    font-size: 1.25rem;
+    color: var(--cor-secundaria);
+    margin-bottom: 0.5rem;
+}
+
+
+/* =========================================
+   PÁGINA CONTATO
+========================================= */
+
+.cabecalho-secao {
+    margin-bottom: 3rem;
+}
+
+.cabecalho-secao p {
+    font-size: 1.125rem;
+}
+
+.cabecalho-secao h1 {
+    color: var(--cor-fundo-alt);
+}
+
+.grid-contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.grid-contato h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-secundaria);
+}
+
+address {
+    font-style: normal;
+}
+
+.grid-contato p {
+    margin-bottom: 0.5rem;
+}
+
+.grid-contato p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   PÁGINA EQUIPE
+========================================= */
+
+.cabecalho-secao {
+    margin-bottom: 3rem;
+}
+
+.cabecalho-secao p {
+    font-size: 1.125rem;
+    color: var(--cor-fundo-alt);
+    max-width: 600px;
+}
+
+.grid-equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.card-membro-conteudo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.25rem;
+    border: 4px solid var(--cor-borda);
+}
+
+.info-membro h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.cargo {
+    display: inline-block;
+    color: var(--cor-secundaria);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.descricao-membro {
+    font-size: 0.95rem;
+    color: var(--cor-texto-secundario);
+    margin-bottom: 0;
+}
